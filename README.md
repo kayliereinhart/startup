@@ -1,4 +1,4 @@
-# Your startup name here
+# Meal Planner
 
 [My Notes](notes.md)
 
@@ -18,45 +18,53 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Do you ever start making a recipe and then realize you don't have all the ingredients? Not anymore, with the Meal Planner application. Meal Planner lets you enter recipes, track your ingredients, and plan your meals. The planner tells you if you have enough ingredients to make a recipe, and predicts when ingredients will run out so you know when to go shopping. Users can also share and rate recipes, giving you new ideas for meals.
 
 ### Design
 
-![Design image](placeholder.png)
+Here are images of the different pages on the website.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
+![Image 1](images/MealPlan1.jpg)
+![Image 2](images/MealPlan2.jpg)
+![Image 3](images/MealPlan3.jpg)
+![Image 4](images/MealPlan4.jpg)
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Secure Login over HTTPS
+- User can enter recipes
+- User can save recipes
+- User can rate recipes
+- Displays recipes on a Browse page and a My Recipes page
+- Notification when users enter or rate a recipe
+- User can enter and update on hand ingredients and amounts
+- User can enter meals they plan to eat and the day they plan to eat them
+- Predicts when ingredients will run out based on on hand amounts and planned meals
+- Displays a calendar with planned meals in green if there should be enough ingredients to make them on that day, in red if not
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Uses correct HTML structure for application. Eleven HTML pages, shown in the Design section of this README.
+- **CSS** - Application styling that uses good whitespace, color choice and contrast.
+- **React** - Provides login, displaying other user's recipes, applying prediction logic, and use of React for routing and components.
+- **Service** - Call to a third party for a recipe. Backend service with endpoints for:
+    - login
+    - retrieving recipes
+    - submitting recipes
+    - submitting on hand ingredients
+    - submitting planned meals
+- **DB/Login** - Store users, recipes, on hand ingredients, planned meals. Register and login users. Credentials securely stored in database. Can't plan meals or submit recipes unless authenticated.
+- **WebSocket** - As each user submits recipes, the recipes are given to all other users.
 
 ## 🚀 AWS deliverable
 
