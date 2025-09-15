@@ -1,8 +1,8 @@
-# Meal Planner
+# Daily Bread
 
 [My Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A meal planning application.
 
 
 > [!NOTE]
@@ -26,7 +26,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Do you ever start making a recipe and then realize you don't have all the ingredients? Not anymore, with the Meal Planner application. Meal Planner lets you enter recipes, track your ingredients, and plan your meals. The planner tells you if you have enough ingredients to make a recipe, and predicts when ingredients will run out so you know when to go shopping. Users can also share and rate recipes, giving you new ideas for meals.
+Do you ever start making a recipe and then realize you don't have all the ingredients? Not anymore, with the Daily Bread application. Daily Bread lets you enter recipes, track your ingredients, and plan your meals. The planner tells you if you have enough ingredients to make a recipe, and predicts when ingredients will run out so you know when to go shopping. Users can also share and rate recipes, giving you new ideas for meals.
 
 ### Design
 
@@ -57,7 +57,7 @@ I am going to use the required technologies in the following ways.
 - **HTML** - Uses correct HTML structure for application. Eleven HTML pages, shown in the Design section of this README.
 - **CSS** - Application styling that uses good whitespace, color choice and contrast.
 - **React** - Provides login, displaying other user's recipes, applying prediction logic, and use of React for routing and components.
-- **Service** - Call to a third party for a recipe. Backend service with endpoints for:
+- **Service** - Call to a third party for a scripture. Backend service with endpoints for:
     - login
     - retrieving recipes
     - submitting recipes
@@ -70,7 +70,7 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
+- [x] **Server deployed and accessible with custom domain name** - [My server link](https://daily-bread.click).
 
 ## 🚀 HTML deliverable
 
