@@ -76,15 +76,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - Ten HTML pages that represent the abilities to login, plan/view meals, and add/view recipes, add/modify/view ingredients.
+- [x] **Proper HTML element usage** - I properly used elements like BODY, NAV, MAIN, HEADER, and FOOTER in each of my HTML files.
+- [x] **Links** - The heading on each page includes links to all of the pages. The Meal Plan page links to the Modify Plan page. The Pantry page links to the Modify Pantry page. The Browse Recipes page links to the View Recipe page.
+- [x] **Text** - There is text displaying the recipe ingredients and instructions
+- [x] **3rd party API placeholder** - On the Notifications page there is a placeholder for a scripture from a 3rd party API.
+- [x] **Images** - I included an image of bread in the header on each page.
+- [x] **Login placeholder** - There are input boxes and a submit button for login.
+- [x] **DB data placeholder** - The recipe choices on the Modify Plan page represent data pulled from the database. The submitted recipes, ingredients, and planned meals represent data put in a database.
+- [x] **WebSocket placeholder** - The Notifications page will show realtime data about recipes submitted.
 
 ## 🚀 CSS deliverable
 
